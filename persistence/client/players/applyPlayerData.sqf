@@ -87,14 +87,12 @@ removeHeadgear player;
 			// diag_log "Removed Backpack";
 			removeBackpack player;
 
-			if (_value isKindOf "Weapon_Bag_Base" && !(_value isKindOf "B_UAV_01_backpack_F")) then
+			if (_value isKindOf "Weapon_Bag_Base" && ({_value isKindOf _x} count ["B_UAV_01_backpack_F", "B_Static_Designator_01_weapon_F", "O_Static_Designator_02_weapon_F"] == 0)) then
 			{
-				// diag_log "Add Default Backpack";
 				player addBackpack "B_AssaultPack_rgr"; // NO SOUP FOR YOU
 			}
 			else
 			{
-				// diag_log "Add Backpack";
 				player addBackpack _value;
 			};
 		};

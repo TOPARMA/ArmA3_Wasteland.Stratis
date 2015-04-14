@@ -3,9 +3,10 @@
 // ******************************************************************************************
 // A3Wasteland config file
 // You will need to shutdown the server to edit settings in this file!
+
 // All saving is done via the server's profileNamespace by default; iniDBI will be automatically used if you have if installed
-// if you have any doubts and/or questions about the mission find us at a3wasteland.com
-// This file is overriden by the external file "A3Wasteland_settings\main_config.sqf" if present
+// if you have any doubts and/or questions about the mission find us at a3wasteland.com 
+// This file is overridden by the external file "A3Wasteland_settings\main_config.sqf" if present
 
 // General settings
 A3W_startHour = 15;                // In-game hour at mission start (0 to 23)
@@ -18,6 +19,7 @@ A3W_globalVoiceMaxWarns = 5;       // Number of global voice warnings after whic
 A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25) (minimum: 0.02)
 A3W_spawnBeaconCooldown = 5*60;    // Number of seconds to wait between each use of an individual spawn beacon (0 = disabled)
 A3W_spawnBeaconSpawnHeight = 1500; // Altitude in meters at which players will spawn when using spawn beacons (0 = ground/sea)
+A3W_uavControl = "group";          // Restrict connection to UAVs based on ownership ("owner", "group", "side")
 A3W_vehicleThermals = 0;		   // Allow vehicles to use thermals (0 = disabled)
 A3W_resupplyCostPR = 4;			   // Determine resupply cost by vehicle store cost / A3W_resupplyCostPR. (4 = default, %25 percent)
 A3W_firstPersonCamOnFoot = 0;	   // Lock infantry to first person view
