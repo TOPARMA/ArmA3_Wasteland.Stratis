@@ -125,7 +125,7 @@ class Mission
 	randomSeed=14957468;
 	class Intel
 	{
-		briefingName="TOParma.com A3Wasteland Stratis v1.1 extDB";
+		briefingName="TOParma.com A3Wasteland Stratis v1.1b extDB";
 		overviewText="TOP Wasteland Conquest Stratis by TOPARMA.com. Core developed by A3Wasteland.com";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
