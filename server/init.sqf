@@ -101,6 +101,7 @@ forEach
 	"A3W_globalVoiceMaxWarns",
 	"A3W_antiHackMinRecoil",
 	"A3W_spawnBeaconCooldown",
+	"A3W_townSpawnCooldown",
 	"A3W_spawnBeaconSpawnHeight",
 	"A3W_purchasedVehicleSaving",
 	"A3W_missionVehicleSaving",
