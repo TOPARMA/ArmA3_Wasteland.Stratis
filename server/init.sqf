@@ -101,6 +101,7 @@ forEach
 	"A3W_globalVoiceMaxWarns",
 	"A3W_antiHackMinRecoil",
 	"A3W_spawnBeaconCooldown",
+	"A3W_townSpawnCooldown",
 	"A3W_spawnBeaconSpawnHeight",
 	"A3W_purchasedVehicleSaving",
 	"A3W_missionVehicleSaving",
@@ -123,7 +124,8 @@ forEach
 	"A3W_tkAutoKickEnabled",
 	"A3W_tkKickAmount",
 	"A3W_donatorEnabled",
-	"A3W_customUniformEnabled"
+	"A3W_customUniformEnabled",
+	"A3W_maxLockonDistance"
 ];
 
 ["A3W_join", "onPlayerConnected", { [_id, _uid, _name] spawn fn_onPlayerConnected }] call BIS_fnc_addStackedEventHandler;

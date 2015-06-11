@@ -15,6 +15,7 @@ onRespawn = "client\clientEvents\onRespawn.sqf" call mf_compile;
 onKilled = "client\clientEvents\onKilled.sqf" call mf_compile;
 onKeyPress = "client\clientEvents\onKeyPress.sqf" call mf_compile;
 onKeyRelease = "client\clientEvents\onKeyRelease.sqf" call mf_compile;
+onMouseButtonDown = "client\clientEvents\onMouseButtonDown.sqf" call mf_compile;
 
 // Functions
 A3W_fnc_copilotTakeControl = "client\functions\copilotTakeControl.sqf" call mf_compile;
