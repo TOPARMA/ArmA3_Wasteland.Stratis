@@ -34,11 +34,7 @@ _getValue =
 
 ["Damage", "NUMBER"] call _getValue;
 ["HitPoints", "ARRAY"] call _getValue;
-<<<<<<< HEAD
-["Hunger", "NUMBER"] call _getValue;
-["Thirst", "NUMBER"] call _getValue;
-=======
->>>>>>> remotes/TOParma-Altis/Development_main
+
 
 if (["A3W_moneySaving"] call isConfigOn) then
 {
@@ -82,12 +78,9 @@ if (["A3W_moneySaving"] call isConfigOn) then
 
 ["WastelandItems", "ARRAY"] call _getValue;
 
-<<<<<<< HEAD
-=======
 ["Hunger", "NUMBER"] call _getValue;
 ["Thirst", "NUMBER"] call _getValue;
 
->>>>>>> remotes/TOParma-Altis/Development_main
 ["Position", "ARRAY"] call _getValue;
 ["Direction", "NUMBER"] call _getValue;
 
