@@ -70,7 +70,9 @@ if (!_handled && (inputAction "LockTarget" > 0 || inputAction "LockTargets" > 0)
 		case (_pweapon == "launch_Titan_short_F" || {_pweapon == "launch_I_Titan_short_F" || {_pweapon == "launch_O_Titan_short_F"}}): { systemChat format ["Locking Disabled for Titan AT/AP Missiles"]; _handled = true; };
 		case (_vweapon == "missiles_DAGR" && (player distance _lockTarget) >= _maxLockonDistance): { systemChat format ["Locking Disabled for DAGR Missiles beyond %1M.",_maxLockonDistance]; _handled = true; };
 		case (_vweapon == "missiles_SCALPEL" && (player distance _lockTarget) >= _maxLockonDistance): { systemChat format ["Locking Disabled for SCALPEL  Missiles beyond %1M.",_maxLockonDistance]; _handled = true; };
-		case (_vweapon == "Missile_AGM_01_Plane_CAS_02_F" && (player distance _lockTarget) >= _maxLockonDistance): { systemChat format ["Locking Disabled for AGM Missiles beyond %1M.",_maxLockonDistance]; _handled = true; };
+		case (_vweapon == "Missile_AGM_01_Plane_CAS_02_F" && (player distance _lockTarget) >= _maxLockonDistance): { systemChat format ["Locking Disabled for Sharur Missiles beyond %1M.",_maxLockonDistance]; _handled = true; };
+		case (_vweapon == "Missile_AGM_02_Plane_CAS_01_F" && (player distance _lockTarget) >= _maxLockonDistance): { systemChat format ["Locking Disabled for Macer Missiles beyond %1M.",_maxLockonDistance]; _handled = true; };
+		
 		
 	};	
 };
