@@ -105,6 +105,10 @@ switch (true) do
 		_vehicle addMagazine "300Rnd_20mm_shells";
 		_vehicle removeWeaponTurret ["missiles_SCALPEL",[-1]];
 	};
+	case (_class isKindOf "O_Truck_03_device_F"):
+	{
+		[netId _vehicle, "A3W_fnc_setupServiceVehicle", true] call A3W_fnc_MP;
+	};
 };
 
 _weapons = getArray (configFile >> "CfgVehicles" >> _class >> "weapons");

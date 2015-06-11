@@ -76,7 +76,7 @@ _minimumWind = 0;
 
 // Wind vector strength never exceeds this value. Must be greater or equal to 0 and greater than or equal to _minimumWind.
 // (Suggested value: 8).
-_maximumWind = 8;
+_maximumWind = 4;
 
 // Probability in percent for wind to change when weather changes. If set to 0 then wind will never change. If set to 100 then rain will
 // change every time the weather (fog or overcast) start to change. (Suggested value: 25);
